@@ -3,7 +3,7 @@
 Plugin Name: FOX Currency Rate API
 Plugin URI:  https://example.com/fox-currency-rate-api
 Description: Provides custom REST API endpoints to expose real-time currency rates configured in FOX - Currency Switcher Professional for WooCommerce. Use these endpoints to retrieve the latest exchange rates or convert amounts between currencies programmatically. No authentication is required because the plugin only exposes read-only rate data.
-Version:     1.0.2
+Version:     1.1.0
 Author:      Gustavo Gonzalez
 License:     GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
