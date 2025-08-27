@@ -57,7 +57,7 @@ function fox_rate_endpoint( WP_REST_Request $req ) {
 
     $cached = get_transient( $cache_key );
     if ( is_array( $cached ) ) {
-        $response           = $cached;
+        $response          = $cached;
         $response['source'] = 'cache';
         $response['stale']  = false;
         if ( isset( $response['updated'] ) ) {
